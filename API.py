@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import io
 from PIL import Image
 import base64
-
+import os
 app = Flask(__name__)
 
 # Load YOLO model
